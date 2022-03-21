@@ -1,0 +1,187 @@
+body{
+    
+    margin: 0 20px;
+    height: 100vh;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+}
+*{
+    box-sizing: border-box;
+}
+.telephone{
+    position: absolute;
+    background: #1f1f1f;
+    width: 280px;
+    height: 500px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.touch{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+
+}
+
+.touch-item{
+    width: 90px;
+
+}
+
+.touch-item:hover{
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 40%;
+}
+
+.call{
+    text-align: center;
+    margin-right: 50px;
+}
+.call-icon{
+    font-size: 40px;
+    color: #eeeeee;
+    margin: 0 auto;
+    border-radius: 100%;
+    background: green;
+    padding: 5px;
+    width: 60px;
+    height: 70px;
+    margin-bottom: 20px;
+    
+}
+
+.screen{
+    color: #eeeeee;
+    text-align: center;
+    font-size: 30px;
+    margin-top: 20px;
+}
+
+
+button{
+    color: #eeeeee;
+    width: 50px;
+    border: none;
+    margin: 10px 20px;
+    background: none;
+    font-size: 20px;
+}
+
+button p{
+    margin: 0;
+}
+
+.tarif{
+    position: absolute;
+    top: -400px;
+    left: 100px;
+    right: 0;
+    transition: .3s;
+    border: 1px solid #ccc;
+    width: 250px;
+    padding: 15px 10px;
+    overflow: hidden;
+    background: #1f1f1f;
+}
+
+.tarif span{
+    display: block;
+    color: #ededed;
+    margin: 10px 15px;
+    font-size: 17px;
+}
+
+.activation-success{
+    border: 1px solid #ccc;
+    width: 250px;
+    padding: 15px 10px;
+    overflow: hidden;
+    background: #1f1f1f;
+    color: #fff;
+    padding: 10px;
+    position: absolute;
+    top: -155px;
+    left: 100px;
+    right: 0;
+    transition: .3s;
+}
+
+.success-msg{
+    margin: 0;
+    font-size: 18px;
+}
+
+#envoyer{
+    width: 100%;
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid #2178fd;
+    margin-bottom: 15px;
+    padding: 10px;
+    color: #fff;
+    font-size: 20px;
+}
+
+#envoyer:focus{
+    border-top: none;
+}
+
+.envoyer a{
+    text-decoration: none;
+    color: #2178fd;
+    font-weight: 700;
+    margin: 0 5px;
+    font-size: 16px;
+    float: right;
+}
+
+.forfait-jour{
+    display: block;
+    margin-bottom: 15px;
+}
+
+.forfait-nuit-mois{
+    display: block;
+    margin-bottom: 15px;
+}
+
+.calling{
+    background: #1f2c34;
+    width: 280px;
+    height: 500px;
+    color: #ededed;
+    text-align: center;
+    border-radius: 10px;
+    transition: .3s;
+    
+}
+
+.calling-remove{
+    display: none;
+}
+
+.userId{
+    margin-top: 10px;
+    margin-bottom: 100px;
+}
+
+.btn{
+    font-size: 40px;
+    color: #eeeeee;
+    margin: 0 auto;
+    border-radius: 100%;
+    background: red;
+    padding: 5px;
+    width: 60px;
+    height: 70px;
+    margin-top: 150px; 
+  
+}
+
+.btn i{
+    transform: translate(0.5deg);
+}
